@@ -10,14 +10,3 @@ spec:
   type: service
   lifecycle: production
   owner: anshuman
-  consumesApis:
-    - name: my-auth-service
-      description: My Auth Service
-      type: http
-      url: https://my-auth-service.example.com/v1
-      authentication:
-        type: apiKey
-        apiKeyHeader: X-AUTH-KEY
-      headers:
-        Accept: application/json
-        Content-Type: application/json

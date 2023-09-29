@@ -10,3 +10,5 @@ spec:
   type: service
   lifecycle: production
   owner: anshuman
+  providesApis: dummy-provider-api-1, dummy-provider-api-2, dummy-provider-api-3
+  consumesApis: somy-dummy-consumed-api

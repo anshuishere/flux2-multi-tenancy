@@ -2,8 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    backstage.io/kubernetes-id: my-kubernetes-component
-  name: flux-v2-multitanency
+    backstage.io/kubernetes-id: backstage-environment-aws
+  name: Backstage AWS
   description: Testing Spotify Backstage using Anshuman's repo
   tags:
     - go

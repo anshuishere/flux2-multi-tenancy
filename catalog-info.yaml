@@ -3,7 +3,7 @@ kind: Component
 metadata:
   annotations:
     backstage.io/kubernetes-id: backstage-environment-aws
-  name: Backstage AWS
+  name: Backstage_AWS
   description: Testing Spotify Backstage using Anshuman's repo
   tags:
     - go
